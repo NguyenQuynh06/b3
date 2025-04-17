@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BUOI 3(26-2)</title>
+    <style>
+      body {
+        font-family: Calibri, sans-serif;
+        margin: 100px 300px 100px 300px;
+      }
+      .btap a {
+        border: 2px solid lightpink;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: palevioletred;
+      }
+      .btap a:hover {
+        background-color: rgb(180, 114, 180);
+      }
+      p {
+        border: 2px solid lightgray;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: white;
+      }
+      a {
+        color: palevioletred;
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+      }
+
+      a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0;
+        height: 2px;
+        background-color: palevioletred;
+        transition: width 0.3s ease-in-out;
+      }
+
+      a:hover::after {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="btap"><a href="tkeweb.html">BÀI TẬP</a></h1>
+    <p><a href="TestLab.html">Bài1</a></p>
+    <p><a href="index2_1.html">Bài2_1</a></p>
+    <p><a href="index2_2.html">Bài2_2</a></p>
+    <p><a href="index2_3.html">Bài2_3</a></p>
+    <p><a href="index3.html">Bài3 </a></p>
+  </body>
+</html>
